@@ -736,7 +736,7 @@ Creates a gzipped MySQL dump with timestamp. Optionally uploads to S3. Auto-dele
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
-cd automatecrm
+cd automate-crm
 
 # 2. Run the setup script
 bash scripts/docker-setup.sh
@@ -901,7 +901,7 @@ Staging environment is live at http://localhost:8080
 ## File Structure Reference
 
 ```
-automatecrm/
+automate-crm/
 ├── app/
 │   ├── Console/Commands/          # Artisan commands
 │   ├── Exceptions/Handler.php     # Error handling
