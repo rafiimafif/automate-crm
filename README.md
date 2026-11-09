@@ -4,7 +4,7 @@
 
 <br />
 
-<a href="https://github.com/rafiimafif/automatecrm-cicd-pipeline">
+<a href="https://github.com/rafiimafif/automatecrm">
   <img src="/public/img/automateCRM.png" alt="automateCRM Logo" width="80" height="80">
 </a>
 
@@ -16,9 +16,9 @@
   and containerized with Docker for seamless AWS deployment.
 </p>
 
-<a href="https://github.com/rafiimafif/automatecrm-cicd-pipeline/issues">Report Bug</a>
+<a href="https://github.com/rafiimafif/automatecrm/issues">Report Bug</a>
 ·
-<a href="https://github.com/rafiimafif/automatecrm-cicd-pipeline/pulls">Request Feature</a>
+<a href="https://github.com/rafiimafif/automatecrm/pulls">Request Feature</a>
 
 </div>
 
@@ -532,8 +532,8 @@ make terraform-destroy
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/rafiimafif/automatecrm-cicd-pipeline.git
-cd automatecrm-cicd-pipeline
+git clone https://github.com/rafiimafif/automatecrm.git
+cd automatecrm
 
 # 2. Build and start the full stack (production)
 docker compose up -d --build
@@ -717,7 +717,7 @@ Key environment variables used across the Docker stack:
 ## Project Structure
 
 ```
-automatecrm-cicd-pipeline/
+automatecrm/
 ├── app/                          # Laravel application code
 │   ├── Console/Commands/         # Artisan commands (email reminders)
 │   ├── Exports/                  # Excel export classes (Maatwebsite)
@@ -778,7 +778,7 @@ automatecrm-cicd-pipeline/
 - Portfolio: [rafii-afif.vercel.app](https://rafii-afif.vercel.app)
 - GitHub: [github.com/rafiimafif](https://github.com/rafiimafif)
 
-Project: [github.com/rafiimafif/automatecrm-cicd-pipeline](https://github.com/rafiimafif/automatecrm-cicd-pipeline)
+Project: [github.com/rafiimafif/automatecrm](https://github.com/rafiimafif/automatecrm)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

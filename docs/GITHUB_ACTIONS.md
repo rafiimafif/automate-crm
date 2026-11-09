@@ -1,6 +1,6 @@
 # GitHub Actions CI/CD Setup Guide
 
-This project now includes a full CI/CD pipeline using GitHub Actions, providing a modern alternative to the Jenkins setup. The pipeline is defined in [ci-cd.yml](file:///c:/Users/rafii/Downloads/Project/automatecrm-cicd-pipeline/.github/workflows/ci-cd.yml).
+This project now includes a full CI/CD pipeline using GitHub Actions, providing a modern alternative to the Jenkins setup. The pipeline is defined in [.github/workflows/ci-cd.yml](../.github/workflows/ci-cd.yml).
 
 ## Workflow Stages
 1.  **Code Quality**: Automated linting using Laravel Pint.
